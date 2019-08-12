@@ -1,11 +1,11 @@
-body{
+/*body{
 	background: url("") no-repeat center center fixed;
 	background-color: pink;
 
 }
 
 h1{
-	font-family: ‘Arial’, ‘Helvetica Neue’, Helvetica, sans-serif;
+	font-family: 'Libre Caslon Display', serif;
 	font-size: 90px;
 	margin-top: 3vh;
 	margin-bottom: 1vh;
@@ -18,7 +18,7 @@ h1{
 }
 
 .btn{
-	font-family: ‘Arial’, ‘Helvetica Neue’, Helvetica, sans-serif;;
+	font-family: 'Libre Caslon Display', serif;
 	font-size: 16px;
 	background-color: #f7fbfd;
 	color: rgb(205, 123, 207);
@@ -37,13 +37,6 @@ h1{
 
 .flower-button{
 	margin: .5vh 1vw;
-}
-
-.comic-sans-font{
-	font-family: "Comic Sans MS";
-	font-size: 18px;
-	font-weight: 800;
-	color: black;
 }
 
 .gif-image{
@@ -71,4 +64,64 @@ h1{
 
 #gif-container{
 	font-size: 22px;
+}
+*/
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1461559380858-2dd893d0b0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: center; 
+  background-size: cover;
+}
+
+
+h1 {
+    font-family: 'Antic', sans-serif;
+    color:pink;
+    text-shadow: 3px 3px black;
+}
+
+
+.container-fluid {
+    margin: 25px;
+    margin-left: 25px;
+
+}
+
+
+
+button {
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px;
+
+
+}
+
+
+
+#addtext {
+    font-size: 30px;
+    font-family: 'Boogaloo', cursive;
+    color: pink;
+    text-shadow: 2px 2px black;
+
+}
+
+
+.newItem {
+    display: block;
+    float: left;
+    margin: 20px;
+
+}
+
+
+.row {
+    margin-right: 35px;
 }
